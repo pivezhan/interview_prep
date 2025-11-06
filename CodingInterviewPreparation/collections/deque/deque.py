@@ -1,3 +1,5 @@
+
+#%%
 # time_append.py
 
 from collections import deque
@@ -21,3 +23,4 @@ gain = list_time / deque_time
 
 print(f"list.insert()      {list_time:.6} ns")
 print(f"deque.appendleft() {deque_time:.6} ns  ({gain:.6}x faster)")
+# %%

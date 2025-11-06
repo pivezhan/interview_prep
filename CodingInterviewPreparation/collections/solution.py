@@ -233,7 +233,7 @@ if __name__ == '__main__':
         
         can_pile = True
         last_block = float('inf')  # Start with infinity (no block on top yet)
-        
+
         while blocks:
             # Choose the larger of the two ends
             if blocks[0] >= blocks[-1]:

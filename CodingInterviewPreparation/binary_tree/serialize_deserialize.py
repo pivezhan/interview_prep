@@ -9,7 +9,7 @@ class Codec:
 
     def serialize(self, root):
         """Encodes a tree to a single string.
-        
+
         :type root: TreeNode
         :rtype: str
         """
@@ -18,7 +18,7 @@ class Codec:
             # Base case: if node is None, represent it as "null"
             if not node:
                 return "null,"
-            
+
             # Pre-order traversal: Root → Left → Right
             # 1. Convert current node value to string
             # 2. Recursively serialize left subtree

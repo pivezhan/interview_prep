@@ -1,3 +1,4 @@
+#%%
 def binary_search(arr, target):
 	"""
 	Perform binary search on a sorted array to find the index of the target value.

@@ -88,22 +88,26 @@ Output: Sum of remaining elements in the set
 """
 
 if __name__ == '__main__':
+    # Enter your code here. Read input from STDIN. Print output to STDOUT
+    # Enter your code here. Read input from STDIN. Print output to STDOUT
+
     n = int(input())
     s = set(map(int, input().split()))
     num_commands = int(input())
-    
-    for _ in range(num_commands):
-        command = input().split()
-        
-        if command[0] == 'pop':
-            s.pop()
-        elif command[0] == 'remove':
-            s.remove(int(command[1]))
-        elif command[0] == 'discard':
-            s.discard(int(command[1]))
-    
-    print(sum(s))
 
+    for _ in range(num_commands):
+        cmd = input().split()
+        if cmd[0] == 'pop':
+            s.pop()
+        elif cmd[0] == 'remove':
+            try:
+                s.remove(int(cmd[1]))
+            except KeyError:
+                pass
+        elif cmd[0] == 'discard':
+            s.discard(int(cmd[1]))
+
+    print(sum(s))
 #%% Set .union() Operation
 """
 Problem: Find number of students subscribed to at least one newspaper
@@ -190,7 +194,7 @@ if __name__ == '__main__':
         operation = operation_input[0]
         length = int(input())
         other_set = set(map(int, input().split()))
-        
+
         if operation == 'update':
             A.update(other_set)
         elif operation == 'intersection_update':
@@ -219,7 +223,7 @@ if __name__ == '__main__':
     unique_rooms = set(room_numbers)
     captain_room = (sum(unique_rooms) * K - sum(room_numbers)) // (K - 1)
     print(captain_room)
-    
+
     # Method 2: Using Counter (alternative)
     # from collections import Counter
     # room_count = Counter(room_numbers)
@@ -260,7 +264,7 @@ if __name__ == '__main__':
     n = int(input())
     
     is_strict_superset = True
-    
+
     for _ in range(n):
         other_set = set(map(int, input().split()))
         
@@ -270,7 +274,21 @@ if __name__ == '__main__':
             break
     
     print(is_strict_superset)
-
+    
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+if __name__ == '__main__':
+    inp = set(map(int, input().split()))
+    t = int(input())
+    is_strict_superset = True
+    for _ in range(t):
+        A = set(map(int, input().split()))
+        if A.issubset(inp) and len(inp) > len(A):
+            pass
+        else:
+            is_strict_superset = False
+            
+    print(is_strict_superset)
+            
 #%% Alternative solution for Check Strict Superset using all()
 """
 Alternative approach using all() function for more Pythonic code
