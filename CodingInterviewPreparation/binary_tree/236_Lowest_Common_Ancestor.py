@@ -51,3 +51,31 @@ class Solution:
         
         # Otherwise, return the non-null side
         return left if left else right
+    
+
+class Solution:
+    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+        stack = [root]
+        parent = {root: None}
+
+        # Find p and q, record parents
+        while p not in parent or q not in parent:
+            node = stack.pop()
+            if node.left:
+                parent[node.left] = node
+                stack.append(node.left)
+            if node.right:
+                parent[node.right] = node
+                stack.append(node.right)
+
+        # Get path from p to root
+        ancestors = set()
+        while p:
+            ancestors.add(p)
+            p = parent[p]
+
+        # Go up from q until we hit an ancestor
+        while q not in ancestors:
+            q = parent[q]
+        
+        return q

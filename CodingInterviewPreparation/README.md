@@ -30,6 +30,7 @@ Keep up the good work!
 
 * Models an object that can be stored in memory
 * Classified into linear(lists, dictionaries, heaps, linked list) and non-linear (trees and graphs)
+  * non-linear means traversing data structure non-linearly in different paths
 * Mutable vs immutable data sctructures (mutable like )
 
 ### Lists vs Sets
@@ -54,3 +55,4 @@ Keep up the good work!
     * Peek allows looking into the top item in stack without removing it from stack
 * Queues are linear data with FIFO (First in First out) basis
   * Front(pop), Back(insert)
+*

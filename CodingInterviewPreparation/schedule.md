@@ -83,10 +83,10 @@ Based on NVIDIA Solutions Architect interviews:
 
 **2:00 - 3:00 PM: Self-Assessment & Job Analysis**
 
-* [ ] Read job description line-by-line
-* [ ] Create mapping document: JD requirement → Your resume experience
-* [ ] Prepare initial list of gaps
-* [ ] **Resource** : [Job Description Analysis Template](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-PA-Remote/Solutions-Architect--Higher-Education-and-Research_JR1999501?source=jobboardlinkedin)
+* [X] Read job description line-by-line
+* [X] Create mapping document: JD requirement → Your resume experience
+* [X] Prepare initial list of gaps
+* [X] **Resource** : [Job Description Analysis Template](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-PA-Remote/Solutions-Architect--Higher-Education-and-Research_JR1999501?source=jobboardlinkedin)
 
 **3:00 - 4:00 PM: Coding Warm-up**
 
@@ -228,9 +228,9 @@ class MLP(nn.Module):
 **5:00 - 6:00 PM: PyTorch Training Loop - Problem #27**
 
 * [X] **Task** : Write complete training loop with proper device handling
-* [ ] **Reference** : [PyTorch Training Tutorial](https://pytorch.org/tutorials/beginner/basics/optimization_tutorial.html)
-* [ ] **Must Include** : `.to(device)`, loss computation, `backward()`, `optimizer.step()`, `zero_grad()`
-* [ ] **Code Template** :
+* [X] **Reference** : [PyTorch Training Tutorial](https://pytorch.org/tutorials/beginner/basics/optimization_tutorial.html)
+* [X] **Must Include** : `.to(device)`, loss computation, `backward()`, `optimizer.step()`, `zero_grad()`
+* [X] **Code Template** :
 
 ```python
 def train_one_epoch(model, dataloader, criterion, optimizer, device):
@@ -256,9 +256,9 @@ def train_one_epoch(model, dataloader, criterion, optimizer, device):
 
 **2:00 - 3:00 PM: NVIDIA NeMo Framework**
 
-* [ ] Read: [NVIDIA NeMo Overview](https://docs.nvidia.com/nemo-framework/user-guide/latest/overview.html)
-* [ ] Watch: [NeMo Framework Introduction](https://www.youtube.com/watch?v=vMG3JVN73ZU)
-* [ ] Understand: How NeMo helps with LLM training/deployment
+* [X] Read: [NVIDIA NeMo Overview](https://docs.nvidia.com/nemo-framework/user-guide/latest/overview.html)
+* [X] Watch: [NeMo Framework Introduction](https://www.youtube.com/watch?v=vMG3JVN73ZU)
+* [X] Understand: How NeMo helps with LLM training/deployment
 
 **3:00 - 4:00 PM: Coding Practice**
 
@@ -305,9 +305,9 @@ def train_one_epoch(model, dataloader, criterion, optimizer, device):
 
 **3:15 - 4:00 PM: Review & Analysis**
 
-* [ ] Analyze mistakes
-* [ ] Optimize solutions
-* [ ] Practice explaining approach out loud
+* [X] Analyze mistakes
+* [X] Optimize solutions
+* [X] Practice explaining approach out loud
 
 #### **Afternoon Session 2 (4:00 PM - 6:00 PM)**
 
@@ -315,16 +315,16 @@ def train_one_epoch(model, dataloader, criterion, optimizer, device):
 
 **Story #1: 34% Performance Improvement (Wayne State)**
 
-* [ ] **Situation** : Researchers struggling with OpenMP DAG workloads on Jetson TX2, high energy, thermal throttling
-* [ ] **Task** : Develop energy-aware scheduler
-* [ ] **Action** : Built HMARL framework with DVFS optimization, published at RTSS 2025
-* [ ] **Result** : 34% performance improvement, 31.7% energy reduction
+* [X] **Situation** : Researchers struggling with OpenMP DAG workloads on Jetson TX2, high energy, thermal throttling
+* [X] **Task** : Develop energy-aware scheduler
+* [X] **Action** : Built HMARL framework with DVFS optimization, published at RTSS 2025
+* [X] **Result** : 34% performance improvement, 31.7% energy reduction
 
 **Write out full story in 2-3 minutes speaking time**
 
 **5:00 - 6:00 PM: Prepare Behavioral Questions**
 
-* [ ] Read: [NVIDIA Interview Questions - Glassdoor](https://www.glassdoor.com/Interview/NVIDIA-Solutions-Architect-Interview-Questions-EI_IE7633.0,6_KO7,26.htm)
+* [X] Read: [NVIDIA Interview Questions - Glassdoor](https://www.glassdoor.com/Interview/NVIDIA-Solutions-Architect-Interview-Questions-EI_IE7633.0,6_KO7,26.htm)
 * [ ] Prepare answers for:
   * [ ] "Tell me about yourself"
   * [ ] "Why NVIDIA?"
@@ -356,20 +356,20 @@ def train_one_epoch(model, dataloader, criterion, optimizer, device):
 
 **4:00 - 5:00 PM: Coding Practice**
 
-* [ ] Solve Problem #8: [Lowest Common Ancestor](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
-* [ ] Solve Problem #12: [Word Ladder](https://leetcode.com/problems/word-ladder/)
+* [X] Solve Problem #8: [Lowest Common Ancestor](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+* [X] Solve Problem #12: [Word Ladder](https://leetcode.com/problems/word-ladder/)
 
 **5:00 - 5:30 PM: Problem #17**
 
-* Solve: [Edit Distance](https://leetcode.com/problems/edit-distance/)
-* Classic DP optimization problem
+* [X] Solve: [Edit Distance](https://leetcode.com/problems/edit-distance/)
+* [X] Classic DP optimization problem
 
 **5:30 - 6:00 PM: Multi-GPU Training Concepts**
 
-* Read: [PyTorch Distributed Overview](https://pytorch.org/tutorials/beginner/dist_overview.html)
-* Study: Data parallelism vs Model parallelism
-* Learn about: [NVIDIA NCCL](https://developer.nvidia.com/nccl)
-* Watch: [Distributed Training Explained](https://www.youtube.com/watch?v=VEbPJHlxOPQ)
+* [X] Read: [PyTorch Distributed Overview](https://pytorch.org/tutorials/beginner/dist_overview.html)
+* [X] Study: Data parallelism vs Model parallelism
+* [X] Learn about: [NVIDIA NCCL](https://developer.nvidia.com/nccl)
+* [X] Watch: [Distributed Training Explained](https://www.youtube.com/watch?v=VEbPJHlxOPQ)
 
  **📝 Evening Homework** : Document your Isaac Lab project with screenshots
 
@@ -385,9 +385,9 @@ def train_one_epoch(model, dataloader, criterion, optimizer, device):
 
 **Problem #28: Data Parallel Multi-GPU (1 hour)**
 
-* Wrap a model using `nn.DataParallel()` or `DistributedDataParallel`
-* **Reference** : [PyTorch Multi-GPU Training](https://pytorch.org/tutorials/beginner/blitz/data_parallel_tutorial.html)
-* **Code** :
+* [X] Wrap a model using `nn.DataParallel()` or `DistributedDataParallel`
+* [X] **Reference** : [PyTorch Multi-GPU Training](https://pytorch.org/tutorials/beginner/blitz/data_parallel_tutorial.html)
+* [X] **Code** :
 
 ```python
 model = MyModel()
@@ -411,15 +411,15 @@ model.to(device)
 
 **4:00 - 5:00 PM: GTC Talks on Physical AI**
 
-* Watch: [GTC 2024 - Physical AI Keynote](https://www.nvidia.com/gtc/)
-* Search for: "Physical AI" and "Robotics" sessions
-* Take notes on NVIDIA's vision for Physical AI
-* **Alternative** : [NVIDIA Blog - Physical AI](https://blogs.nvidia.com/blog/what-is-physical-ai/)
+* [X] Watch: [GTC 2024 - Physical AI Keynote](https://www.nvidia.com/gtc/)
+* [X] Search for: "Physical AI" and "Robotics" sessions
+* [X] Take notes on NVIDIA's vision for Physical AI
+* [ ] **Alternative** : [NVIDIA Blog - Physical AI](https://blogs.nvidia.com/blog/what-is-physical-ai/)
 
 **5:00 - 6:00 PM: Coding Practice**
 
-* Solve Problem #5: [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
-* Solve Problem #13: [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
+* [X] Solve Problem #5: [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
+* [X] Solve Problem #13: [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
 
  **📝 Evening Homework** : Write STAR story #3 - "Moffett Internship Collaboration"
 
@@ -433,10 +433,10 @@ model.to(device)
 
 **2:00 - 3:00 PM: NVIDIA Omniverse Deep Dive**
 
-* Read: [Omniverse Platform Overview](https://docs.omniverse.nvidia.com/platform/latest/index.html)
-* Understand: Digital twins concept
-* Watch: [Omniverse for Robotics](https://www.youtube.com/results?search_query=nvidia+omniverse+robotics)
-* Learn: How researchers use Omniverse for simulation
+* [ ] Read: [Omniverse Platform Overview](https://docs.omniverse.nvidia.com/platform/latest/index.html)
+* [ ] Understand: Digital twins concept
+* [ ] Watch: [Omniverse for Robotics](https://www.youtube.com/results?search_query=nvidia+omniverse+robotics)
+* [ ] Learn: How researchers use Omniverse for simulation
 
 **3:00 - 5:00 PM: Advanced PyTorch - Problems #30, #31, #32, #33**
 
@@ -462,8 +462,8 @@ def scaled_dot_product_attention(Q, K, V, mask=None):
 
 **Problem #31: Custom Dataset (30 min)**
 
-* Create PyTorch Dataset class with image augmentation
-* **Reference** : [PyTorch Custom Dataset Tutorial](https://pytorch.org/tutorials/beginner/basics/data_tutorial.html)
+* [X] Create PyTorch Dataset class with image augmentation
+* [X] **Reference** : [PyTorch Custom Dataset Tutorial](https://pytorch.org/tutorials/beginner/basics/data_tutorial.html)
 
 **Problem #32: Model Profiling (30 min)**
 
@@ -779,12 +779,12 @@ def monitor_gpu(threshold=90):
 
 **Scenario #50: University AI Platform (20 min)**
 
-* Design campus-wide AI research infrastructure
-* **Hardware Layer** : DGX clusters (training), Jetson devices (edge), workstations
-* **Software Stack** : CUDA, cuDNN, TensorRT, Triton Inference Server
-* **Platforms** : Omniverse (digital twins), Isaac (robotics), NeMo (LLMs)
-* **Management** : Resource scheduling, user authentication, cost tracking
-* **Reference** : [NVIDIA AI Enterprise](https://www.nvidia.com/en-us/data-center/products/ai-enterprise/)
+* [ ] Design campus-wide AI research infrastructure
+* [ ] **Hardware Layer** : DGX clusters (training), Jetson devices (edge), workstations
+* [ ] **Software Stack** : CUDA, cuDNN, TensorRT, Triton Inference Server
+* [ ] **Platforms** : Omniverse (digital twins), Isaac (robotics), NeMo (LLMs)
+* [ ] **Management** : Resource scheduling, user authentication, cost tracking
+* [ ] **Reference** : [NVIDIA AI Enterprise](https://www.nvidia.com/en-us/data-center/products/ai-enterprise/)
 
 **5:30 - 6:00 PM: Prepare Behavioral STAR Story #5**
 **Story: Overcoming Technical Challenge**
@@ -885,19 +885,19 @@ def monitor_gpu(threshold=90):
 
 **2:00 - 3:30 PM: Light Coding Review - Revisit Weak Problems**
 
-* Go back to 5 problems you struggled with most
-* Re-solve from scratch
-* Focus on explaining your approach clearly
-* **Suggested review** :
-* If you struggled with DP: re-do problems #14, #15, #16, #17
-* If you struggled with graphs: re-do problems #9, #10, #11, #12
-* Practice talking through solution before coding
+* [ ] Go back to 5 problems you struggled with most
+* [ ] Re-solve from scratch
+* [ ] Focus on explaining your approach clearly
+* [ ] **Suggested review** :
+* [ ] If you struggled with DP: re-do problems #14, #15, #16, #17
+* [ ] If you struggled with graphs: re-do problems #9, #10, #11, #12
+* [ ] Practice talking through solution before coding
 
 **3:30 - 4:00 PM: LeetCode Easy Problems for Confidence**
 
-* [Two Pointers: Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
-* [Stack: Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
-* [Array: Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+* [X] [Two Pointers: Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+* [X] [Stack: Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+* [X] [Array: Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
 #### **Afternoon Session 2 (4:00 PM - 6:00 PM)**
 
@@ -905,36 +905,36 @@ def monitor_gpu(threshold=90):
 
  **Isaac Sim/Lab Key Features** :
 
-* Physics simulation for robotics
-* Synthetic data generation
-* ROS/ROS2 integration
-* RL training with Isaac Gym
-* **Your talking point** : "Excited to learn how Isaac Lab could accelerate robotics research I could support"
+* [X] Physics simulation for robotics
+* [X] Synthetic data generation
+* [X] ROS/ROS2 integration
+* [X] RL training with Isaac Gym
+* [X] **Your talking point** : "Excited to learn how Isaac Lab could accelerate robotics research I could support"
 
  **Omniverse Key Features** :
 
-* USD (Universal Scene Description) foundation
-* Real-time collaboration
-* Digital twin creation
-* Integration with CAD, rendering, simulation tools
-* **Your talking point** : "See potential for universities to build digital twins of campus infrastructure for research"
+* [X] USD (Universal Scene Description) foundation
+* [X] Real-time collaboration
+* [X] Digital twin creation
+* [X] Integration with CAD, rendering, simulation tools
+* [X] **Your talking point** : "See potential for universities to build digital twins of campus infrastructure for research"
 
  **NeMo Framework Key Features** :
 
-* LLM training and customization
-* Automatic mixed precision
-* Multi-GPU/multi-node scaling
-* Model parallel strategies
-* **Your talking point** : "Could help researchers fine-tune foundation models efficiently on limited budgets"
+* [X] LLM training and customization
+* [X] Automatic mixed precision
+* [X] Multi-GPU/multi-node scaling
+* [X] Model parallel strategies
+* [X] **Your talking point** : "Could help researchers fine-tune foundation models efficiently on limited budgets"
 
 **5:00 - 6:00 PM: Presentation #2 Preparation**
 **Flow-Matching & Few-Shot Learning for Physical AI (10 minutes)**
 
-* **Slide 1** : What is Physical AI? (real-time data from physical sensors)
-* **Slide 2** : Your approach (flow-matching, few-shot learning pipelines)
-* **Slide 3** : Integration with heterogeneous devices
-* **Slide 4** : Applications to robotics and edge AI
-* **Slide 5** : How this connects to NVIDIA ecosystem (Isaac, Jetson)
+* [X] **Slide 1** : What is Physical AI? (real-time data from physical sensors)
+* [X] **Slide 2** : Your approach (flow-matching, few-shot learning pipelines)
+* [X] **Slide 3** : Integration with heterogeneous devices
+* [X] **Slide 4** : Applications to robotics and edge AI
+* [X] **Slide 5** : How this connects to NVIDIA ecosystem (Isaac, Jetson)
 
  **Practice** : Present to someone non-technical, then technical
 
@@ -950,10 +950,10 @@ def monitor_gpu(threshold=90):
 
 **2:00 - 3:00 PM: STAR Stories Final Practice**
 
-* Practice all 5 stories out loud
-* Time each one (aim for 3-4 minutes)
-* Record final versions
-* **Stories to review** :
+* [ ] Practice all 5 stories out loud
+* [ ] Time each one (aim for 3-4 minutes)
+* [ ] Record final versions
+* [ ] **Stories to review** :
 
 1. 34% Performance Improvement (Wayne State)
 2. Cross-Institutional Collaboration
@@ -963,10 +963,10 @@ def monitor_gpu(threshold=90):
 
 **3:00 - 3:30 PM: Resume Walk-through**
 
-* Read your resume top to bottom
-* Be ready to explain every single bullet point
-* Practice transitions between roles
-* No detail memorization—just natural familiarity
+* [ ] Read your resume top to bottom
+* [ ] Be ready to explain every single bullet point
+* [ ] Practice transitions between roles
+* [ ] No detail memorization—just natural familiarity
 
 **3:30 - 4:00 PM: Relaxation & Confidence Building**
 
@@ -977,11 +977,11 @@ def monitor_gpu(threshold=90):
 
 **Evening: Free Time**
 
-* Early dinner (not too heavy)
-* Avoid caffeine after 6 PM
-* Prepare clothes for interview
-* No studying after 8 PM
-* **Goal** : In bed by 10 PM for 8+ hours sleep
+* [ ] Early dinner (not too heavy)
+* [ ] Avoid caffeine after 6 PM
+* [ ] Prepare clothes for interview
+* [ ] No studying after 8 PM
+* [ ] **Goal** : In bed by 10 PM for 8+ hours sleep
 
  **📝 Evening Homework** : None! Rest and recharge.
 
@@ -997,10 +997,10 @@ def monitor_gpu(threshold=90):
 
  **CUDA Basics** :
 
-* Grid → Blocks → Threads
-* Shared memory vs global memory
-* `__syncthreads()` for synchronization
-* Memory coalescing for performance
+* [X] Grid → Blocks → Threads
+* [X] Shared memory vs global memory
+* [X] `__syncthreads()` for synchronization
+* [X] Memory coalescing for performance
 
  **PyTorch Quick Reference** :
 
@@ -1023,65 +1023,65 @@ with autocast():
 
  **NVIDIA Products One-Liner Each** :
 
-* **Isaac Sim** : Physics-accurate robot simulation
-* **Isaac Lab** : RL training framework for robotics
-* **Omniverse** : Collaborative 3D design and digital twin platform
-* **NeMo** : Framework for building and customizing LLMs
-* **TensorRT** : Inference optimization engine
-* **Triton** : Model serving and inference platform
-* **NCCL** : Multi-GPU communication library
+* [X] **Isaac Sim** : Physics-accurate robot simulation
+* [X] **Isaac Lab** : RL training framework for robotics
+* [X] **Omniverse** : Collaborative 3D design and digital twin platform
+* [X] **NeMo** : Framework for building and customizing LLMs
+* [X] **TensorRT** : Inference optimization engine
+* [X] **Triton** : Model serving and inference platform
+* [X] **NCCL** : Multi-GPU communication library
 
 **2:30 - 3:00 PM: One Practice Problem (Easy - Confidence Booster)**
 
-* [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
-* Focus on clear explanation, not speed
-* **Don't time yourself** - just enjoy solving it
+* [X] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+* [X] Focus on clear explanation, not speed
+* [X] **Don't time yourself** - just enjoy solving it
 
 **3:00 - 3:30 PM: Interview Logistics Preparation**
 
  **Technical Setup** :
 
-* Test Zoom/video platform (camera, microphone, speakers)
-* Ensure stable internet connection (close other apps)
-* Charge laptop fully, have charger nearby
-* Test screen sharing if needed
-* Have backup device ready (phone with Zoom)
+* [X] Test Zoom/video platform (camera, microphone, speakers)
+* [X] Ensure stable internet connection (close other apps)
+* [X] Charge laptop fully, have charger nearby
+* [X] Test screen sharing if needed
+* [X] Have backup device ready (phone with Zoom)
 
  **Physical Setup** :
 
-* Clean, professional background
-* Good lighting (face should be well-lit)
-* Quiet room (inform family/roommates)
-* Glass of water nearby
-* Notebook and pen for notes
-* Copy of your resume printed
+* [X] Clean, professional background
+* [X] Good lighting (face should be well-lit)
+* [X] Quiet room (inform family/roommates)
+* [X] Glass of water nearby
+* [X] Notebook and pen for notes
+* [X] Copy of your resume printed
 
  **Digital Setup** :
 
-* Have these open in browser tabs:
-  * Your resume (PDF)
-  * Job description
-  * NVIDIA website
-  * Your prepared questions
-* CoderPad or similar if coding round mentioned
+* [ ] Have these open in browser tabs:
+  * [ ] Your resume (PDF)
+  * [ ] Job description
+  * [ ] NVIDIA website
+  * [ ] Your prepared questions
+* [ ] CoderPad or similar if coding round mentioned
 
 **3:30 - 4:00 PM: Final Mental Preparation**
 
-* Review "Why NVIDIA?" answer one last time
-* Review your questions for interviewer
-* Quick meditation or breathing exercises
-* Remind yourself: **You are qualified for this role**
+* [X] Review "Why NVIDIA?" answer one last time
+* [X] Review your questions for interviewer
+* [X] Quick meditation or breathing exercises
+* [X] Remind yourself: **You are qualified for this role**
 
  **Evening Schedule** :
 
-* **4:00 PM** : Done with prep! Close all study materials
-* **5:00 PM** : Light exercise (walk, yoga)
-* **6:00 PM** : Healthy dinner
-* **7:00 PM** : Relaxing activity (read fiction, watch comedy)
-* **8:00 PM** : Prepare tomorrow's outfit (business casual)
-* **9:00 PM** : Light evening routine
-* **9:30 PM** : In bed, no screens
-* **10:00 PM** : Asleep (target 8 hours sleep)
+* [X] **4:00 PM** : Done with prep! Close all study materials
+* [X] **5:00 PM** : Light exercise (walk, yoga)
+* [X] **6:00 PM** : Healthy dinner
+* [X] **7:00 PM** : Relaxing activity (read fiction, watch comedy)
+* [X] **8:00 PM** : Prepare tomorrow's outfit (business casual)
+* [X] **9:00 PM** : Light evening routine
+* [X] **9:30 PM** : In bed, no screens
+* [X] **10:00 PM** : Asleep (target 8 hours sleep)
 
  **📝 Evening Homework** : NONE. Sleep is your homework!
 
@@ -1105,24 +1105,24 @@ with autocast():
 
  **8:00 AM** : Light warm-up (if interview is later)
 
-* Read one article from [NVIDIA Blog](https://blogs.nvidia.com/)
-* Review your "Why NVIDIA?" answer
-* **Do NOT cram or study new material**
+* [X] Read one article from [NVIDIA Blog](https://blogs.nvidia.com/)
+* [X] Review your "Why NVIDIA?" answer
+* [X] **Do NOT cram or study new material**
 
  **30 Minutes Before Interview** :
 
-* Use bathroom
-* Set phone to Do Not Disturb
-* Close all unnecessary browser tabs
-* Have only: video platform, resume, job description, questions open
-* Breathing exercises: 4-7-8 technique (breathe in 4 sec, hold 7 sec, exhale 8 sec)
+* [X] Use bathroom
+* [X] Set phone to Do Not Disturb
+* [X] Close all unnecessary browser tabs
+* [X] Have only: video platform, resume, job description, questions open
+* [X] Breathing exercises: 4-7-8 technique (breathe in 4 sec, hold 7 sec, exhale 8 sec)
 
  **10 Minutes Before** :
 
-* Join meeting (be early, wait in lobby)
-* Final tech check
-* Smile (even before they join - sets positive mood)
-* Positive self-talk: "I'm prepared. I'm qualified. I'll do great."
+* [X] Join meeting (be early, wait in lobby)
+* [X] Final tech check
+* [X] Smile (even before they join - sets positive mood)
+* [X] Positive self-talk: "I'm prepared. I'm qualified. I'll do great."
 
 ---
 
@@ -1132,53 +1132,53 @@ with autocast():
 
 * **Smile and make eye contact** (look at camera, not screen)
 * **"Tell me about yourself"** - Use your prepared 2-3 minute pitch:
-  * PhD candidate in Computer Science at Wayne State
-  * Specializing in GPU-accelerated RL and energy optimization
-  * Published at RTSS, RTCSA, ECRTS
-  * Hands-on NVIDIA Jetson experience
-  * Passionate about supporting research community
-  * Excited about Solutions Architect role at NVIDIA
+  * [X] PhD candidate in Computer Science at Wayne State
+  * [X] Specializing in GPU-accelerated RL and energy optimization
+  * [X] Published at RTSS, RTCSA, ECRTS
+  * [X] Hands-on NVIDIA Jetson experience
+  * [X] Passionate about supporting research community
+  * [X] Excited about Solutions Architect role at NVIDIA
 
 #### **Coding Round** (if applicable)
 
  **Strategy** :
 
 1. **Clarify the problem** (2-3 min)
-   * Restate problem in your own words
-   * Ask about input constraints
-   * Clarify expected output format
-   * Ask about edge cases
+   * [X] Restate problem in your own words
+   * [X] Ask about input constraints
+   * [X] Clarify expected output format
+   * [X] Ask about edge cases
 2. **Plan your approach** (3-5 min)
-   * Think out loud
-   * Discuss trade-offs
-   * Get interviewer buy-in before coding
-   * "I'm thinking of using [algorithm] because..."
+   * [X] Think out loud
+   * [X] Discuss trade-offs
+   * [X] Get interviewer buy-in before coding
+   * [X] "I'm thinking of using [algorithm] because..."
 3. **Code** (20-30 min)
-   * Write clean, readable code
-   * Use meaningful variable names
-   * Add comments for complex logic
-   * Test as you go
+   * [X] Write clean, readable code
+   * [X] Use meaningful variable names
+   * [X] Add comments for complex logic
+   * [X] Test as you go
 4. **Test & optimize** (5-10 min)
-   * Walk through example inputs
-   * Check edge cases
-   * Discuss time/space complexity
-   * Suggest optimizations
+   * [X] Walk through example inputs
+   * [X] Check edge cases
+   * [X] Discuss time/space complexity
+   * [X] Suggest optimizations
 
  **If stuck** :
 
-* "Let me think about this for a moment..."
-* Ask for hints: "Would it help to consider..."
-* Don't panic - talk through your thought process
+* [X] "Let me think about this for a moment..."
+* [X] Ask for hints: "Would it help to consider..."
+* [X] Don't panic - talk through your thought process
 
 #### **Technical/Domain Questions**
 
  **When explaining your research** :
 
-* Use the "explain to my grandmother" test
-* Start high-level, then drill down
-* Use analogies where appropriate
-* Show enthusiasm for your work
-* Connect to how it helps researchers
+* [X] Use the "explain to my grandmother" test
+* [X] Start high-level, then drill down
+* [X] Use analogies where appropriate
+* [X] Show enthusiasm for your work
+* [X] Connect to how it helps researchers
 
  **Sample responses** :
 
@@ -1205,44 +1205,44 @@ with autocast():
 
  **Tips** :
 
-* Focus on YOUR actions (use "I" not "we")
-* Be specific, not generic
-* Include metrics when possible
-* Show learning/growth
-* Stay positive (even for "failure" questions)
+* [X] Focus on YOUR actions (use "I" not "we")
+* [X] Be specific, not generic
+* [X] Include metrics when possible
+* [X] Show learning/growth
+* [X] Stay positive (even for "failure" questions)
 
  **Common questions prepared** :
 
-* ✅ Tell me about yourself
-* ✅ Why NVIDIA?
-* ✅ Why Solutions Architect?
-* ✅ Describe a technical challenge
-* ✅ Tell me about a collaboration
-* ✅ Describe a failure/learning experience
-* ✅ How do you stay current with AI/ML?
-* ✅ Describe working with difficult stakeholder
+* [X] ✅ Tell me about yourself
+* [X] ✅ Why NVIDIA?
+* [X] ✅ Why Solutions Architect?
+* [X] ✅ Describe a technical challenge
+* [X] ✅ Tell me about a collaboration
+* [X] ✅ Describe a failure/learning experience
+* [X] ✅ How do you stay current with AI/ML?
+* [X] ✅ Describe working with difficult stakeholder
 
 #### **System Design/Architecture Round**
 
  **Approach** :
 
 1. **Clarify requirements** (5 min)
-   * Functional requirements
-   * Scale (users, data, throughput)
-   * Performance requirements
-   * Budget constraints
+   * [ ] Functional requirements
+   * [ ] Scale (users, data, throughput)
+   * [ ] Performance requirements
+   * [ ] Budget constraints
 2. **High-level design** (10 min)
-   * Draw major components
-   * Explain data flow
-   * Discuss technology choices
+   * [ ] Draw major components
+   * [ ] Explain data flow
+   * [ ] Discuss technology choices
 3. **Deep dive** (15 min)
-   * Pick 2-3 components to detail
-   * Discuss trade-offs
-   * Mention NVIDIA solutions where relevant
+   * [ ] Pick 2-3 components to detail
+   * [ ] Discuss trade-offs
+   * [ ] Mention NVIDIA solutions where relevant
 4. **Optimizations** (5 min)
-   * Performance optimizations
-   * Cost optimizations
-   * Scalability considerations
+   * [ ] Performance optimizations
+   * [ ] Cost optimizations
+   * [ ] Scalability considerations
 
  **Connect to NVIDIA** :
 
@@ -1254,10 +1254,10 @@ with autocast():
 
  **Ask 3-4 of your prepared questions** :
 
-* Pick mix of technical, role-specific, and culture
-* Show genuine curiosity
-* Take notes on answers
-* **Don't ask** about salary/benefits yet (that's for later rounds)
+* [X] Pick mix of technical, role-specific, and culture
+* [X] Show genuine curiosity
+* [X] Take notes on answers
+* [X] **Don't ask** about salary/benefits yet (that's for later rounds)
 
  **Examples** :
 
@@ -1268,10 +1268,10 @@ with autocast():
 
 #### **Closing**
 
-* Thank interviewer(s) for their time
-* Express genuine enthusiasm: "I'm really excited about this opportunity to support the research community with NVIDIA technology"
-* Ask about next steps and timeline
-* **Get email addresses** for thank-you notes
+* [X] Thank interviewer(s) for their time
+* [X] Express genuine enthusiasm: "I'm really excited about this opportunity to support the research community with NVIDIA technology"
+* [X] Ask about next steps and timeline
+* [X] **Get email addresses** for thank-you notes
 
 ---
 

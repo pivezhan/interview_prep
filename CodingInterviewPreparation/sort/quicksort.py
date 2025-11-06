@@ -1,6 +1,6 @@
 # from numpy import np
 
-
+#%%
 def quicksort(arr):
 	"""Sorts an array using the quicksort algorithm.
 
@@ -18,8 +18,8 @@ def quicksort(arr):
 		middle = [x for x in arr if x == pivot]
 		right = [x for x in arr if x > pivot]
 		return quicksort(left) + middle + quicksort(right)
-def __init__():
-	array = [3,6,8,10,1,2,1]
-	print("Original array:", array)
-	sorted_array = quicksort(array)
-	print("Sorted array:", sorted_array)
+
+array = [3,6,8,10,1,2,1]
+print("Original array:", array)
+sorted_array = quicksort(array)
+print("Sorted array:", sorted_array)
