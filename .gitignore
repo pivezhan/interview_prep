@@ -62,4 +62,8 @@ Thumbs.db
 !*.csv
 !*.tar.gz
 !*.zip
-EOF
+EOFcertificates/
+*.pdf
+*.docx
+*.zip
+*.tar.gz
